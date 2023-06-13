@@ -2,4 +2,4 @@
 
 I made this game for a web programming college project
 
-view ss/gamesigh.jpg
+![View](ss/gamesifh.jpg)
