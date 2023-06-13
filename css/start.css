@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: cover;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../asset/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: rgba(250, 250, 250, 0.7);
+  margin-top: 70px;
+  text-align: center;
+  font-style: oblique;
+  font-size: 100px;
+  text-shadow: 2px 2px 2px rgba(79, 241, 58, 0.7);
+}
+h2 {
+  color: rgba(250, 250, 250, 0.7);
+  margin-top: 20px;
+  margin-right: 40px;
+  font-size: 80px;
+  text-shadow: 2px 2px 2px rgba(79, 241, 58, 0.7);
+}
+
+.button_start {
+  width: 115px;
+  height: 100px;
+  background-image: url("../asset/start.png");
+  background-position: center;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  top: 61%;
+  left: 40%;
+  position: fixed;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.button_start:hover {
+  background-image: url("../asset/start_hover2.png");
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+}
+
+.button_rules {
+  width: 115px;
+  height: 100px;
+  background-image: url("../asset/rules.png");
+  background-position: center;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  top: 61%;
+  left: 62%;
+  position: fixed;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.button_rules:hover,
+.button_rules:focus,
+.button_rules:active {
+  background-image: url("../asset/rules_hover2.png");
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+}

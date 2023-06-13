@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/start.css" />
+  </head>
+
+  <body>
+    <h1>C'mmon Fish</h1>
+    <h2>Let's Play</h2>
+    <button id="start" class="button_start"></button>
+    <script type="text/javascript">
+      document.getElementById("start").onclick = function () {
+        location.href = "../html/game.html";
+      };
+    </script>
+
+    <button id="rules" class="button_rules"></button>
+    <script type="text/javascript">
+      document.getElementById("rules").onclick = function () {
+        location.href = "../html/rule.html";
+      };
+    </script>
+  </body>
+</html>
