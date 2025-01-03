@@ -386,7 +386,7 @@ function restart2() {
 
 function exit2() {
   document.getElementById("exit1").onclick = function () {
-    location.href = "../html/start.html";
+    location.href = "../html/index.html";
   };
 }
 function restart1() {
@@ -397,7 +397,7 @@ function restart1() {
 
 function exit1() {
   document.getElementById("exit").onclick = function () {
-    location.href = "../html/start.html";
+    location.href = "../html/index.html";
   };
 }
 
